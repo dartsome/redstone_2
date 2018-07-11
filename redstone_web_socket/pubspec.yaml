@@ -10,8 +10,8 @@ environment:
 dependencies:
   redstone:
     git:
-      url: https://github.com/dartsome/redstone.git
-      ref: cf6fff976135f28256cf98db560774a05d08634d
+      url: https://github.com/dartsome/redstone_2.git
+      path: redstone
   shelf_web_socket: ^0.2.2+2
 
 dev_dependencies:
@@ -19,4 +19,4 @@ dev_dependencies:
 
 #dependency_overrides:
 #  redstone:
-#    path: ../redstone_2
+#    path: ../redstone
