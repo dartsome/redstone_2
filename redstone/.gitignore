@@ -1,0 +1,22 @@
+# Don’t commit the following files and directories created by pub, Dart Editor, and dart2js
+**/packages
+.packages
+.dart_tool
+.project
+.buildlog
+.idea
+.pub
+*.precompiled.js
+*.js_
+*.js.deps
+*.js.map
+redstone.iml
+
+# Include when developing application packages
+pubspec.lock
+
+# Avoid committing generated JavaScript files
+*.dart.js
+
+# Cloud 9
+.c9*

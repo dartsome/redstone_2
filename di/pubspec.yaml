@@ -1,0 +1,25 @@
+name: di
+version: 4.0.0
+authors:
+- Vojta Jina <vojta.jina@gmail.com>
+- Pavel Jbanov <pavelgj@gmail.com>
+- Anting Shen <shenantingtt@gmail.com>
+- Misko Hevery <misko@hevery.com>
+- Victor Berchet <victor@suumit.com>
+description: Dependency Injection framework
+homepage: https://github.com/angular/di.dart
+
+environment:
+  sdk: '>=2.0.0-dev.67.0 <2.0.0'
+
+dependencies:
+  path: ^1.6.1
+
+dev_dependencies:
+  benchmark_harness: ^1.0.4
+  guinness2: '>=0.0.3 <1.0.0'
+  matcher: ^0.12.3
+  test: ^0.12.10
+
+dependency_overrides:
+  test: ^1.2.0

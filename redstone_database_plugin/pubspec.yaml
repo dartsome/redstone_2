@@ -1,0 +1,28 @@
+name: redstone_database_plugin
+description: Redstone plugin for serialization and database access
+version: 0.4.0
+authors:
+  - Stéphane Este-Gracias <sestegra@gmail.com>
+  - Hadrien Lejard <hadrien.lejard@gmail.com>
+homepage: https://github.com/dartsome/redstone_database_plugin
+
+environment:
+  sdk: '>=2.0.0-dev.67.0 <2.0.0'
+
+dependencies:
+  serializer: ^0.8.0
+
+dev_dependencies:
+  bson: ^0.3.1
+  redstone:
+    git:
+      url: https://github.com/dartsome/redstone.git
+      ref: cf28bc7c0447e15a6dc65918cb5b1eda4c979999
+  serializer_generator: ^0.8.0
+  test: ^1.2.0
+
+#dependency_overrides:
+#  di:
+#    path: ../di.dart_2
+#  redstone:
+#    path: ../redstone_2
