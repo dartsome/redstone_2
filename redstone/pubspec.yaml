@@ -16,8 +16,8 @@ dependencies:
   collection: ^1.14.10
   di:
     git:
-      url: https://github.com/dartsome/di.dart.git
-      ref: 9757300d48ca09635c3f936f1f8c6408d1cd5ae2
+      url: https://github.com/dartsome/redstone_2.git
+      path: di
   grinder: ^0.8.2
   mime: ^0.9.6+1
   http: ^0.11.3+16
@@ -31,4 +31,4 @@ dev_dependencies:
 
 #dependency_overrides:
 #  di:
-#    path: ../di.dart_2
+#    path: ../di

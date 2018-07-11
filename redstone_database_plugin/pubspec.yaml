@@ -16,13 +16,13 @@ dev_dependencies:
   bson: ^0.3.1
   redstone:
     git:
-      url: https://github.com/dartsome/redstone.git
-      ref: cf28bc7c0447e15a6dc65918cb5b1eda4c979999
+      url: https://github.com/dartsome/redstone_2.git
+      path: redstone
   serializer_generator: ^0.8.0
   test: ^1.2.0
 
 #dependency_overrides:
 #  di:
-#    path: ../di.dart_2
+#    path: ../di
 #  redstone:
-#    path: ../redstone_2
+#    path: ../redstone

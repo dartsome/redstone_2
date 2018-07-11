@@ -12,24 +12,24 @@ environment:
 dependencies:
   connection_pool:
     git:
-      url: https://github.com/dartsome/connection_pool.git
-      ref: d9387ca9c46db6033121b7536405a033a5250fac
+      url: https://github.com/dartsome/redstone_2.git
+      path: connection_pool
   mongo_dart: ^0.3.2
   redstone_database_plugin:
     git:
-      url: https://github.com/dartsome/redstone_database_plugin.git
-      ref: d0b55a4606dfcc5157c76466e215e1867def45fe
+      url: https://github.com/dartsome/redstone_2.git
+      path: redstone_database_plugin
 
 dev_dependencies:
   redstone:
     git:
-      url: https://github.com/dartsome/redstone.git
-      ref: cf28bc7c0447e15a6dc65918cb5b1eda4c979999
+      url: https://github.com/dartsome/redstone_2.git
+      path: redstone
   serializer_generator: ^0.8.0
   test: ^1.2.0
 
 dependency_overrides:
 #  connection_pool:
-#    path: ../connection_pool_2
+#    path: ../connection_pool
 #  redstone:
-#    path: ../redstone_2
+#    path: ../redstone

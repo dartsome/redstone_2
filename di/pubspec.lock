@@ -366,4 +366,4 @@ packages:
     source: hosted
     version: "2.1.14"
 sdks:
-  dart: "2.0.0-dev.67.0"
+  dart: ">=2.0.0-dev.67.0 <=2.0.0-edge.c267586b652c0101a3f54ef7a75a08c0be27dafb"
