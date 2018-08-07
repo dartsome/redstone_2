@@ -389,7 +389,7 @@ class _ChainImpl implements Chain {
     var req = currentContext.request;
     var newUrl =
         url.startsWith('/') ? req.requestedUri.resolve(url) : Uri.parse(_joinUrl(req.requestedUri.toString(), url));
-    var shelfReqCtx = new Map.from(req.attributes);
+    var shelfReqCtx = new Map<String, Object>.from(req.attributes);
     var newReq = new shelf.Request("GET", newUrl, headers: headers, context: shelfReqCtx);
 
     return _forwardShelfHandler(newReq);

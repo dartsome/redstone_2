@@ -1,5 +1,5 @@
 name: di
-version: 4.0.0
+version: 5.0.0
 authors:
 - Vojta Jina <vojta.jina@gmail.com>
 - Pavel Jbanov <pavelgj@gmail.com>
@@ -10,7 +10,7 @@ description: Dependency Injection framework
 homepage: https://github.com/angular/di.dart
 
 environment:
-  sdk: '>=2.0.0-dev.67.0 <2.0.0'
+  sdk: '>=2.0.0-dev.67.0 <3.0.0'
 
 dependencies:
   path: ^1.6.1
